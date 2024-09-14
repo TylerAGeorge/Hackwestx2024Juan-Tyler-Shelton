@@ -7,5 +7,6 @@ namespace App.Web.Models
     {
         public string Question;
         public string Answer;
+        public int ID;
     }
 }

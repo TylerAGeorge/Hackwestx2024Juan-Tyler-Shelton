@@ -4,6 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddScoped<IArticleRepository, MockArticleRepository>();
+builder.Services.AddScoped<IFAQRepository, MockFAQRepository>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
