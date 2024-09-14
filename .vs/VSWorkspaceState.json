@@ -9,6 +9,6 @@
     "\\App\\App.Web\\Views\\Home",
     "\\App\\App.Web\\Views\\Shared"
   ],
-  "SelectedNode": "\\App\\App.Web\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\App\\App.Web\\Controllers",
   "PreviewInSolutionExplorer": false
 }

@@ -3,8 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\models\\ifaqrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\models\\ifaqrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\views\\article\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\views\\article\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\viewmodels\\articlelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\viewmodels\\articlelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\views\\faq\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\views\\faq\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\models\\mockfaqrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\models\\mockfaqrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\models\\iarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\models\\iarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\viewmodels\\faqlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\viewmodels\\faqlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|c:\\users\\tyler\\source\\repos\\tylerageorge\\hackwestx2024juan-tyler-shelton\\app\\app.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0880F1AF-D112-4285-ACA6-678F462E2DBF}|App.Web\\App.Web.csproj|solutionrelative:app.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +70,208 @@
       "DocumentGroups": [
         {
           "DockedWidth": 86,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFAQRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\Source\\Repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Models\\IFAQRepository.cs",
+              "RelativeDocumentMoniker": "App.Web\\Models\\IFAQRepository.cs",
+              "ToolTip": "C:\\Users\\tyler\\Source\\Repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Models\\IFAQRepository.cs",
+              "RelativeToolTip": "App.Web\\Models\\IFAQRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:18:33.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "App.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "App.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T17:22:11.352Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "App.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "App.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T17:18:08.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\tyler\\Source\\Repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\FAQ\\List.cshtml",
+              "RelativeDocumentMoniker": "App.Web\\Views\\FAQ\\List.cshtml",
+              "ToolTip": "C:\\Users\\tyler\\Source\\Repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\FAQ\\List.cshtml",
+              "RelativeToolTip": "App.Web\\Views\\FAQ\\List.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T18:31:07.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Program.cs",
               "RelativeDocumentMoniker": "App.Web\\Program.cs",
               "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Program.cs",
               "RelativeToolTip": "App.Web\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T19:24:25.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FAQController.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\Source\\Repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Controllers\\FAQController.cs",
+              "RelativeDocumentMoniker": "App.Web\\Controllers\\FAQController.cs",
+              "ToolTip": "C:\\Users\\tyler\\Source\\Repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Controllers\\FAQController.cs",
+              "RelativeToolTip": "App.Web\\Controllers\\FAQController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:28:21.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FAQ.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Models\\FAQ.cs",
+              "RelativeDocumentMoniker": "App.Web\\Models\\FAQ.cs",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Models\\FAQ.cs",
+              "RelativeToolTip": "App.Web\\Models\\FAQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:10:51.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "App.Web\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "App.Web\\Controllers\\ArticleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:12:33.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\Article\\List.cshtml",
+              "RelativeDocumentMoniker": "App.Web\\Views\\Article\\List.cshtml",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\Article\\List.cshtml",
+              "RelativeToolTip": "App.Web\\Views\\Article\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T17:13:42.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArticleListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\ViewModels\\ArticleListViewModel.cs",
+              "RelativeDocumentMoniker": "App.Web\\ViewModels\\ArticleListViewModel.cs",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\ViewModels\\ArticleListViewModel.cs",
+              "RelativeToolTip": "App.Web\\ViewModels\\ArticleListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:14:34.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MockFAQRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Models\\MockFAQRepository.cs",
+              "RelativeDocumentMoniker": "App.Web\\Models\\MockFAQRepository.cs",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Models\\MockFAQRepository.cs",
+              "RelativeToolTip": "App.Web\\Models\\MockFAQRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:20:03.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IArticleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Models\\IArticleRepository.cs",
+              "RelativeDocumentMoniker": "App.Web\\Models\\IArticleRepository.cs",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Models\\IArticleRepository.cs",
+              "RelativeToolTip": "App.Web\\Models\\IArticleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T16:06:01.366Z",
+              "WhenOpened": "2024-09-14T18:18:20.705Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FAQListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\ViewModels\\FAQListViewModel.cs",
+              "RelativeDocumentMoniker": "App.Web\\ViewModels\\FAQListViewModel.cs",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\ViewModels\\FAQListViewModel.cs",
+              "RelativeToolTip": "App.Web\\ViewModels\\FAQListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:29:49.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "App.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "App.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T17:21:27.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "App.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "App.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T17:21:26.02Z"
             }
           ]
         }
