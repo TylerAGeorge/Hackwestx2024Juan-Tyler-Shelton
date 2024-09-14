@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800|Open+Sans:400,600,700|Poppins');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+input {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+a,
+a:hover,
+a:focus,
+button,
+button:hover,
+button:focus {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.wrapper {
+    height: 100vh;
+    display: table;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.wrapper-inner {
+    display: table-cell;
+    vertical-align: middle !important;
+    width: 100%;
+}
+
+.main-container {
+    /* border: 1px solid #dddddd; */
+    box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    min-height: 30vh;
+    margin: 30px auto;
+}
+
+.header {
+    border-bottom: 1px solid #dddddd;
+    padding: 20px;
+}
+
+.header .brand {
+    margin-top: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo {
+    text-shadow: rgb(27, 139, 153) 0px 0px 0px, rgb(27, 140, 154) 1px 1px 0px, rgb(27, 142, 156) 2px 2px 0px, rgb(28, 144, 158) 3px 3px 0px, rgb(28, 145, 160) 4px 4px 0px, rgb(28, 147, 162) 5px 5px 0px, rgb(29, 149, 164) 6px 6px 0px, rgb(29, 150, 166) 7px 7px 0px, rgb(29, 152, 168) 8px 8px 0px, rgb(30, 154, 169) 9px 9px 0px, rgb(30, 156, 171) 10px 10px 0px, rgb(30, 157, 173) 11px 11px 0px, rgb(31, 159, 175) 12px 12px 0px, rgb(31, 161, 177) 13px 13px 0px, rgb(31, 162, 179) 14px 14px 0px, rgb(31, 164, 181) 15px 15px 0px, rgb(32, 166, 182) 16px 16px 0px, rgb(32, 167, 184) 17px 17px 0px, rgb(32, 169, 186) 18px 18px 0px, rgb(33, 171, 188) 19px 19px 0px, rgb(33, 173, 190) 20px 20px 0px, rgb(33, 174, 192) 21px 21px 0px, rgb(34, 176, 194) 22px 22px 0px, rgb(34, 178, 196) 23px 23px 0px, rgb(34, 179, 197) 24px 24px 0px, rgb(35, 181, 199) 25px 25px 0px, rgb(35, 183, 201) 26px 26px 0px, rgb(35, 184, 203) 27px 27px 0px, rgb(36, 186, 205) 28px 28px 0px, rgb(36, 188, 207) 29px 29px 0px, rgb(36, 190, 209) 30px 30px 0px, rgb(37, 191, 211) 31px 31px 0px, rgb(37, 193, 212) 32px 32px 0px, rgb(37, 195, 214) 33px 33px 0px, rgb(38, 196, 216) 34px 34px 0px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: rgb(38, 198, 218);
+    overflow: hidden;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-logo {
+    display: inline-block;
+    vertical-align: middle;
+    color: #455A64;
+}
+
+.header-search {
+    max-width: 300px;
+    float: right;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+    .header .brand {
+        width: 100%;
+        text-align: center;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+    .header-search {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.navbar-custom {
+    box-shadow: none !important;
+    border-bottom: 1px solid #dddddd;
+    padding: 0px !important;
+}
+
+.navbar-custom .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    width: 100%;
+    position: relative;
+}
+
+.navbar-custom .navbar-toggler {
+    position: absolute;
+    top: -17px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+@media (max-width: 991px) {
+    .text-logo {
+        display: none;
+    }
+    .navbar-custom .navbar-collapse {
+        margin-top: 10px;
+    }
+    .navbar-custom {
+        margin-bottom: 15px !important;
+    }
+    .navbar-custom .navbar-nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 767px) {
+    .sidebar-wrapper {
+        border-left: 1px solid #dddddd;
+    }
+}
+
+.sidebar-wrapper {
+    padding: 30px 15px;
+}
+
+.sidebar-item {
+    margin-bottom: 20px;
+}
+
+.sidebar-item .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.sidebar-item .list-group {
+    padding-top: 0px;
+}
+
+.sidebar-item img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    background: #4f4f4f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-ribbon {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right;
+}
+
+.card-ribbon span {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px;
+    right: -21px;
+}
+
+.card-ribbon span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+}
+
+.card-ribbon span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    z-index: -1;
+}
+
+.card-ribbon span.blue {
+    background: #00A1A7;
+}
+
+.card-ribbon span.blue::before {
+    border-left: 3px solid #00A1A7;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #00A1A7;
+}
+
+.card-ribbon span.blue::after {
+    border-left: 3px solid transparent;
+    border-right: 3px solid #00A1A7;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #00A1A7;
+}
+
+.card-ribbon span.red {
+    background: #d32f2f;
+}
+
+.card-ribbon span.red::before {
+    border-left: 3px solid #d32f2f;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #d32f2f;
+}
+
+.card-ribbon span.red::after {
+    border-left: 3px solid transparent;
+    border-right: 3px solid #d32f2f;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #d32f2f;
+}
+
+.card-ribbon span.green {
+    background: #43A047;
+}
+
+.card-ribbon span.green::before {
+    border-left: 3px solid #43A047;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #43A047;
+}
+
+.card-ribbon span.green::after {
+    border-left: 3px solid transparent;
+    border-right: 3px solid #43A047;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #43A047;
+}
+
+.articles-wrapper .card {
+    margin-bottom: 25px !important;
+    transition: all .25s ease-in-out;
+}
+
+.articles-wrapper .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .14), 0 6px 5px -4px rgba(0, 0, 0, .2), 0 4px 8px 0px rgba(0, 0, 0, .12);
+}
+
+.articles-wrapper .card .card-body .card-title {
+    margin-bottom: 0px !important;
+}
+
+.articles-wrapper .card .card-body .card-date {
+    display: block;
+    padding: 10px 0px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #4d4d4d;
+}
+
+.articles-wrapper .card .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    /* fallback */
+    max-height: 50px;
+    /* fallback */
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+}
+
+.page-wrapper {
+    padding: 10px;
+}
+
+.page-wrapper .heading {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 15px;
+}
+
+.page-wrapper .heading .title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    color: #565656;
+}
+
+.page-wrapper .metadata {
+    width: 100%;
+    color: #686868;
+    margin-bottom: 25px;
+}
+
+.page-wrapper .metadata .info {
+    display: inline-block;
+    margin-right: 10px;
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.1), 5px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 12px;
+    transition: ease-in-out .25s;
+    border: 1px solid #e8e8e8;
+}
+
+.page-wrapper .metadata .info i {
+    margin-right: 8px;
+}
+
+.page-wrapper .metadata .info:hover,
+.page-wrapper .metadata .info:focus {
+    box-shadow: none;
+}
+
+.page-wrapper .body {
+    font-family: 'Poppins', sans-serif !important;
+    color: #686868;
+    font-size: 15px;
+}
+
+.page-wrapper .body img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.14), 5px 6px 10px rgba(0, 0, 0, 0.12);
+    transition: ease-in-out .21s;
+}
+
+.page-wrapper .body img:hover,
+.page-wrapper .body img:focus {
+    box-shadow: none;
+}
+
+.comments {
+    border-top: 1px solid #dddddd;
+    background: #ffffff;
+    color: #686868;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.comments-heading {
+    margin-bottom: 20px;
+}
+
+.comments-body .comment {
+    display: table;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.comments-body .comment img.user-image {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+    display: table-cell;
+    width: 3.5rem;
+    margin-right: 15px;
+    padding-top: 12px;
+}
+
+.comments-body .comment .user-comment:before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 10px solid transparent;
+    border-right-color: #dddddd;
+    margin-left: -35px;
+    margin-top: 13px;
+}
+
+.comments-body .comment .user-comment {
+    display: table-cell;
+    vertical-align: top;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+
+.comments-body .comment .user-comment .user-comment-options {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4c4c4c;
+    width: 100%;
+}
+
+.comments-body .comment .user-comment textarea {
+    width: 100%;
+}
+
+.btn-collapse {
+    font-weight: 700 !important;
+}
+
+.collapsed {
+    font-weight: normal !important;
+}
