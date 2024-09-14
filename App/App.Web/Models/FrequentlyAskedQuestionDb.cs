@@ -6,6 +6,6 @@ namespace App.Web.Models
     {
         public FrequentlyAskedQuestionDb(DbContextOptions<FrequentlyAskedQuestionDb> options) : base(options) { }
         
-        public DbSet<FrequentlyAskedQuestion>
+        public DbSet<FrequentlyAskedQuestion> FAQs => Set<FrequentlyAskedQuestion>();
     }
 }
