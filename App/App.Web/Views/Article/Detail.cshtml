@@ -1,0 +1,30 @@
+﻿@model Article
+
+<div class="col-md-12">
+    <div class="page-wrapper">
+        <div class="heading">
+            <h2 class="title">@Model.Title</h2>
+        </div>
+        <div class="metadata">
+            <div class="info date">
+                <i class="far fa-calendar-alt"></i> @Model.TimePublished
+            </div>
+            <div class="info category">
+                <a href="#">
+                    <i class="fas fa-folder-open"></i> Article Category
+                </a>
+            </div>
+            <div class="info comments">
+                <a href="#">
+                    <i class="fas fa-comments"></i> 4 Comments
+                </a>
+            </div>
+        </div>
+        <div class="body">
+            <p>
+                @Model.Description
+            </p>
+            
+        </div>
+    </div>
+</div>
