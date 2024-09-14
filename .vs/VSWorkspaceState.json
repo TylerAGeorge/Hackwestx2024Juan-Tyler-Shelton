@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\App",
+    "\\App\\App.Web",
+    "\\App\\App.Web\\Models"
   ],
-  "SelectedNode": "\\App.sln",
   "PreviewInSolutionExplorer": false
 }
