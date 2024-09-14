@@ -16,8 +16,13 @@ namespace App.Web.Controllers
 
         public IActionResult List()
         {
-            var articleListViewModel = new ArticleListViewModel(_articleRepository.GetAll);
+            var articleListViewModel = new ArticleListViewModel(_articleRepository.GetAll());
             return View(articleListViewModel);
         }
+        public IActionResult Detail(int id)
+        {
+            return View(_articleRepository.GetOne(id));
+        }
+
     }
 }
