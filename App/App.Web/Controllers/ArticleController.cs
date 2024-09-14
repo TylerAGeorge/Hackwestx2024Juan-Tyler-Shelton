@@ -1,4 +1,5 @@
 ﻿using App.Web.Models;
+using App.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace App.Web.Controllers
@@ -15,7 +16,8 @@ namespace App.Web.Controllers
 
         public IActionResult List()
         {
-            return View(_articleRepository.GetAll);
+            var articleListViewModel = new ArticleListViewModel(_articleRepository.GetAll);
+            return View(articleListViewModel);
         }
     }
 }
