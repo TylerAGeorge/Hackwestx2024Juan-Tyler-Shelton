@@ -36,3 +36,6 @@ For this project, a Jupyter Notebook was used, and you will need the following l
 
 ```bash
 pip install opencv-python matplotlib face_recognition tensorflow scipy numpy Pillow h5py
+
+## References
+Images used for face classification model: https://www.kaggle.com/datasets/jessicali9530/lfw-dataset
