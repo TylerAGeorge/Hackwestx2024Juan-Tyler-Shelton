@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\tyler\source\repos\TylerAGeorge\Hackwestx2024Juan-Tyler-Shelton\App\App.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/tyler/source/repos/TylerAGeorge/Hackwestx2024Juan-Tyler-Shelton/App/App.Web/Views/Article/AddArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBZGRBcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tyler/source/repos/TylerAGeorge/Hackwestx2024Juan-Tyler-Shelton/App/App.Web/Views/Article/AddArticleDialogue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBZGRBcnRpY2xlRGlhbG9ndWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/tyler/source/repos/TylerAGeorge/Hackwestx2024Juan-Tyler-Shelton/App/App.Web/Views/Article/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

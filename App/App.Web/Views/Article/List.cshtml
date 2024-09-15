@@ -1,5 +1,6 @@
 ﻿@model App.Web.ViewModels.ArticleListViewModel
 
+
 @foreach (var article in Model.Articles)
 {
     <div class="col-sm-6 col-md-4">
@@ -15,6 +16,7 @@
         </div>
     </div>
 }
+<a asp-controller="Article" asp-action="AddArticleDialogue" class="btn btn-secondary float-right">Add New...</a>
 
 
                      

@@ -1,7 +1,7 @@
 ﻿using App.Web.Models;
 using App.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-
+using App.Web.HttpManagers;
 namespace App.Web.Controllers
 {
     public class ArticleController : Controller
@@ -22,6 +22,24 @@ namespace App.Web.Controllers
         public IActionResult Detail(string id)
         {
             return View(_articleRepository.GetOne(id));
+        }
+
+        public IActionResult AddArticleDialogue()
+        {
+            return View(new AddArticleListViewModel());
+        }
+        public IActionResult AddArticle(string title, string description)
+        {
+            bool s = false;
+            if (!(string.IsNullOrEmpty(title) || string.IsNullOrEmpty(description)))
+            {
+                Article article = new Article() { Title = title, Description = description, ArticleId = 0, TimePublished = DateTime.Now };
+
+                s = ArticleAccessor.CreateArticleAsync(article).GetAwaiter().GetResult() == null ? false: true;
+            }
+            
+            
+            return View(new AddArticleSuccessViewModel(s));
         }
 
     }

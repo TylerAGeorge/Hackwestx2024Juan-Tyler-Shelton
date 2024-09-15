@@ -1,0 +1,19 @@
+﻿@model App.Web.ViewModels.AddArticleListViewModel
+
+<div class="col-md-12">
+    <div class="page-wrapper">
+        <form asp-controller="Article" asp-action="AddArticle"  method="post">
+            <div class="heading">
+                Title: <input asp-for="Title" type="text" />
+            </div>
+
+            <div class="body">
+                Description: <input asp-for="Description" type="text" />
+            </div>
+            <div>
+                <button type="submit">Submit article</button>
+            </div>
+        </form>
+
+    </div>
+</div>
