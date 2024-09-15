@@ -1,15 +1,11 @@
 using App.Web.Models;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddScoped<IArticleRepository, MockArticleRepository>();
 builder.Services.AddScoped<IFAQRepository, FAQRepository>();
 builder.Services.AddControllersWithViews();
-//builder.Services.Configure<AppDatabaseSettings>(
-//    builder.Configuration.GetSection("AppDatabase"));
-//builder.Services.AddDbContext<>
 
 var app = builder.Build();
 
@@ -20,7 +16,6 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
