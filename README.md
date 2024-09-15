@@ -45,7 +45,7 @@ pip install opencv-python matplotlib face_recognition tensorflow scipy numpy Pil
 ```bash
 mongod --dbpath <directiory_to_AppDb>
 ```
-- where <directory_to_AppDb> is replaced with the file path to the AppDb folder
+  - where <directory_to_AppDb> is replaced with the file path to the AppDb folder
 - Open ./AppDbApi/AppDbApi.sln in Visual Studio 2022 with Asp.NET core installed and run the project
 - Open ./App/App.sln in a separate instance of Visual Studio and run the project
 ## References
