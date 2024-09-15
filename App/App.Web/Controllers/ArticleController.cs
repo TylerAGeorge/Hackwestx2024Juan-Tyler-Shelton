@@ -28,6 +28,18 @@ namespace App.Web.Controllers
         {
             return View(new AddArticleListViewModel());
         }
+
+        public IActionResult DeleteArticle(string id)
+        {
+            bool s = false;
+            if (!(string.IsNullOrEmpty(id)))
+            {
+                s = ArticleAccessor.DeleteArticleAsync(id).GetAwaiter().GetResult() == null ? false : true;
+            }
+
+
+            return View(new AddArticleSuccessViewModel(s));
+        }
         public IActionResult AddArticle(string title, string description)
         {
             bool s = false;

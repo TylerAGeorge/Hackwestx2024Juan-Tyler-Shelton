@@ -58,9 +58,9 @@ namespace App.Web.HttpManagers
             return f;
         }
 
-        public static async Task<HttpStatusCode> DeleteArticleAsync(Article f)
+        public static async Task<HttpStatusCode> DeleteArticleAsync(string id)
         {
-            HttpResponseMessage response = await Client.DeleteAsync($"api/Article/{f._id}");
+            HttpResponseMessage response = await Client.DeleteAsync($"api/Article/{id}");
 
             return response.StatusCode;
         }

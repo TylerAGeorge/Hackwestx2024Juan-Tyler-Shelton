@@ -1,10 +1,11 @@
 ﻿@model App.Web.ViewModels.AddArticleSuccessViewModel
 
-@if(Model.success) 
-{ 
+@if (Model.success)
+{
     <div>Success</div>
-} else 
-{ 
+}
+else
+{
     <div>Fail</div>
 }
 <a class="nav-item nav-link" asp-controller="Article" asp-action="List">Return</a>
