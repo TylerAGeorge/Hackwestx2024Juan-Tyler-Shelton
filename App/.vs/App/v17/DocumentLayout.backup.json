@@ -86,8 +86,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 86,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -96,18 +104,10 @@
               "RelativeDocumentMoniker": "App.Web\\HttpManagers\\FAQDbAccessor.cs",
               "ToolTip": "C:\\Users\\tyler\\source\\repos\\TylerAGeorge\\Hackwestx2024Juan-Tyler-Shelton\\App\\App.Web\\HttpManagers\\FAQDbAccessor.cs",
               "RelativeToolTip": "App.Web\\HttpManagers\\FAQDbAccessor.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T01:59:48.724Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",

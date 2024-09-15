@@ -13,6 +13,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<AppDatabaseSettings>(
     builder.Configuration.GetSection("AppDatabase"));
 builder.Services.AddSingleton<FAQService>();
+builder.Services.AddSingleton<ArticleService>();
+
 
 var app = builder.Build();
 
