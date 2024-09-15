@@ -16,15 +16,15 @@
     @foreach (var faq in Model.FAQs)
     {
         <div class="card">
-            <div class="card-header" id="headingOne">
+            <div class="card-header" id="heading@faq.ID">
                 <h5 class="mb-0">
-                    <button class="btn btn-dark" data-toggle="collapse" data-target="#@faq.ID" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn btn-dark" data-toggle="collapse" data-target="#@faq.ID" aria-expanded="true" aria-controls="@faq.ID">
                         @faq.Question
                     </button>
                 </h5>
             </div>
 
-            <div id="@faq.ID" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div id="@faq.ID" class="collapse show" aria-labelledby="heading@faq.ID" data-parent="#accordion">
                 <div class="card-body">
                    @faq.Answer
                 </div>

@@ -1,14 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\App",
     "\\App\\App.Web",
     "\\App\\App.Web\\Controllers",
     "\\App\\App.Web\\Models",
     "\\App\\App.Web\\Views",
     "\\App\\App.Web\\Views\\Home",
-    "\\App\\App.Web\\Views\\Shared"
+    "\\App\\App.Web\\Views\\Shared",
+    "\\WikiDb"
   ],
-  "SelectedNode": "\\App\\App.Web\\Controllers",
+  "SelectedNode": "\\WikiDb",
   "PreviewInSolutionExplorer": false
 }

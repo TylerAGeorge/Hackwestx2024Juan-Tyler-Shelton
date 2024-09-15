@@ -1,12 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
+namespace App.Web.Models;
 
-namespace App.Web.Models
+public class FAQ
 {
-    public class FAQ
-    {
-        public string Question;
-        public string Answer;
-        public int ID;
-    }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string? _id { get; set; }
+
+    public string Question { get; set; } = null!;
+
+    public string Answer { get; set; } = null!;
+
+    public int ID { get; set; }
+
 }

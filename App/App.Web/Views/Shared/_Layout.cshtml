@@ -21,7 +21,7 @@
           
     <link rel="stylesheet" href="~/css/style.css">
 
-    <title>Material Knowledge Base</title>
+    <title>Cowboy Wiki</title>
 </head>
 
 <body>
@@ -34,8 +34,8 @@
                             <input type="text" placeholder="Type to search..." class="form-control">
                         </div>
                         <h3 class="brand">
-                            <p class="logo">MKB</p>
-                            <p class="text-logo">Material Knowledge Base</p>
+                            <p class="logo">CoW</p>
+                            <p class="text-logo">Cowboy Wiki</p>
                         </h3>
                     </div>
                 </div>
@@ -49,8 +49,8 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav">
-                                    <a class="nav-item nav-link active" href="index.html">Home</a>
-                                    <a class="nav-item nav-link" href="articles.html">Articles</a>
+                                    <a class="nav-item nav-link active" asp-controller="" asp-action="Index">Home</a>
+                                    <a class="nav-item nav-link" asp-controller="Articles" asp-action="List">Articles</a>
                                     <a class="nav-item nav-link" href="categories.html">Categories</a>
                                     <a class="nav-item nav-link" asp-controller="FAQ" asp-action="List">FAQs</a>
                                 </div>
