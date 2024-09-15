@@ -37,5 +37,16 @@ For this project, a Jupyter Notebook was used, and you will need the following l
 ```bash
 pip install opencv-python matplotlib face_recognition tensorflow scipy numpy Pillow h5py
 ```
+# Install/Run
+
+1. First download all files and unzip them into their own folder
+2. Install MongoDB using instructions from https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+3. Run the following command
+```bash
+mongod --dbpath <directiory_to_AppDb>
+```
+where <directory_to_AppDb> is replaced with the file path to the AppDb folder
+4. Open ./AppDbApi/AppDbApi.sln in Visual Studio 2022 with Asp.NET core installed and run the project
+5. Open ./App/App.sln in a separate instance of Visual Studio and run the project
 ## References
 Images used for face classification model: https://www.kaggle.com/datasets/jessicali9530/lfw-dataset
