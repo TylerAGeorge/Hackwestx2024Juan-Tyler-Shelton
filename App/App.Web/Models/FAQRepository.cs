@@ -21,10 +21,6 @@ namespace App.Web.Models
         }
        async Task GetAllFAQ()
        {
-            FAQDbAccessor.Client.BaseAddress = new Uri("https://localhost:7135");
-            FAQDbAccessor.Client.DefaultRequestHeaders.Accept.Clear();
-            FAQDbAccessor.Client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
             s = await FAQDbAccessor.GetFAQAsync();
 
             this._getAll = Newtonsoft.Json.JsonConvert.DeserializeObject<List<FAQ>>(s);

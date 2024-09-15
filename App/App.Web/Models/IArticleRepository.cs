@@ -2,8 +2,8 @@
 {
     public interface IArticleRepository
     {
-        IEnumerable<Article> GetAll();
-        Article? GetOne(int id);
+        IEnumerable<Article> GetAll { get; set; }
+        Article? GetOne(string id);
 
     }
 }

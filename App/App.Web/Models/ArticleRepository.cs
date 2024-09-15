@@ -5,8 +5,9 @@ namespace App.Web.Models
 {
     public class ArticleRepository : IArticleRepository
     {
-        public string s;
+        public string? s;
         private IEnumerable<Article> _getAll;
+        private Article _getOne { get; set; }
         public IEnumerable<Article> GetAll
         {
             get
@@ -19,13 +20,27 @@ namespace App.Web.Models
                 GetAll = value;
             }
         }
+
+        public Article GetOne(string id)
+        {
+            GetOneAsync(id).GetAwaiter().GetResult();
+            return _getOne;
+        }
+
+
+        async Task GetOneAsync(string id)
+        {
+            //ArticleAccessor.Client.BaseAddress = new Uri("https://localhost:7135");
+            //ArticleAccessor.Client.DefaultRequestHeaders.Accept.Clear();
+            //ArticleAccessor.Client.DefaultRequestHeaders.Accept.Add(
+            //    new MediaTypeWithQualityHeaderValue("application/json"));
+            s = await ArticleAccessor.GetArticleAsync(id);
+
+            this._getOne = JsonConvert.DeserializeObject<Article>(s);
+        }
         async Task GetAllFAQ()
         {
-            FAQDbAccessor.Client.BaseAddress = new Uri("https://localhost:7135");
-            FAQDbAccessor.Client.DefaultRequestHeaders.Accept.Clear();
-            FAQDbAccessor.Client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
-            s = await FAQDbAccessor.GetFAQAsync();
+            s = await ArticleAccessor.GetArticleAsync();
 
             this._getAll = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Article>>(s);
         }

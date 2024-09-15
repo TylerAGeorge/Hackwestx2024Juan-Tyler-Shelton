@@ -3,7 +3,7 @@ using App.Web.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddScoped<IArticleRepository, MockArticleRepository>();
+builder.Services.AddScoped<IArticleRepository, ArticleRepository>();
 builder.Services.AddScoped<IFAQRepository, FAQRepository>();
 builder.Services.AddControllersWithViews();
 

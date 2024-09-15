@@ -10,6 +10,14 @@ namespace App.Web.HttpManagers
 {
     public static class FAQDbAccessor
     {
+        static FAQDbAccessor()
+        {
+            FAQDbAccessor.Client.BaseAddress = new Uri("https://localhost:7135");
+            FAQDbAccessor.Client.DefaultRequestHeaders.Accept.Clear();
+            FAQDbAccessor.Client.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/json"));
+        }
+
         public static HttpClient Client = new HttpClient();
 
         public static async Task<Uri> CreateFAQAsync(FAQ f)

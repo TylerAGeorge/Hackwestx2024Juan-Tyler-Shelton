@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\App",
+    "\\AppDbApi",
+    "\\AppDbApi\\AppDbApi",
+    "\\AppDbApi\\AppDbApi\\Models",
     "\\App\\App.Web",
-    "\\App\\App.Web\\Controllers",
-    "\\App\\App.Web\\Models",
     "\\App\\App.Web\\Views",
     "\\App\\App.Web\\Views\\Home",
     "\\App\\App.Web\\Views\\Shared",
     "\\WikiDb"
   ],
-  "SelectedNode": "\\App\\App.Web\\Models\\MockArticleRepository.cs",
+  "SelectedNode": "\\AppDbApi\\AppDbApi\\Models\\FAQ.cs",
   "PreviewInSolutionExplorer": false
 }
